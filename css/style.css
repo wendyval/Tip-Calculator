@@ -1,0 +1,30 @@
+html, 
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(239, 239, 239, 0.47);
+}
+header h1 {
+    font: 700 38px 'Nunito', sans-serif;
+    color: #235D3A;
+    margin: 10px 0 0 30px;
+}
+
+header h2 {
+    font: 700 16px 'Nunito', sans-serif; 
+    color: #6B8E4E;
+    margin: 0 0 15px 30px;
+}
+
+header a {
+    text-decoration: none;
+    font: 700 19px 'Nunito', sans-serif; 
+    color: #397D54;
+    margin-right: 30px;
+}
