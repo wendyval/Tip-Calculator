@@ -1,6 +1,12 @@
 html, 
 body {
     margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -92,4 +98,14 @@ div.output-section {
     font: 600 21px 'Nunito', sans-serif; 
     color: #235D3A;
     text-align: center;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(239, 239, 239, 0.47); 
+    font: 600 13px 'Nunito', sans-serif;
+    color: #6B8E4E;
 }
