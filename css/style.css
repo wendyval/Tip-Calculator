@@ -72,5 +72,24 @@ form.left-column {
 
 div.right-column {
     width: 50%;
-    border-left: 2px solid #397D54;
+}
+
+div.output-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.output-section label {
+    font: 600 19px 'Nunito', sans-serif; 
+    color: #235D3A;
+    text-align: center;
+}
+
+.output-section span {
+    font: 600 21px 'Nunito', sans-serif; 
+    color: #235D3A;
+    text-align: center;
 }
