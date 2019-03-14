@@ -1,7 +1,6 @@
 html, 
 body {
     margin: 0;
-    height: 100%;
 }
 
 body {
@@ -111,14 +110,13 @@ div.button-container {
 }
 
 .clear-button {
-    width: 12%;
     border-radius: 30px; 
-    padding: 5px 0; 
+    padding: 5px 35px; 
     font: 600 19px 'Nunito', sans-serif; 
     color: #EFEFEF;
     background-color: #235D3A; 
     border: 1px solid #235D3A;
-    margin-top: 40px;
+    margin: 40px 0;
     letter-spacing: 2px;
 }
 
