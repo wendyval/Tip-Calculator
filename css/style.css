@@ -35,3 +35,32 @@ main {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 35px 5px;
+}
+
+.form-section label {
+    font: 600 19px 'Nunito', sans-serif; 
+    color: #235D3A;
+    width: 40%;
+    text-align: right;
+}
+
+.form-section .input-field {
+    width: 30%;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: #EFEFEF;
+    text-align: right;
+    font: 600 16px 'Nunito', sans-serif;
+}
+
+input[type="number"] {
+    border: 1px solid #EFEFEF;
+}
