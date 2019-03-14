@@ -41,7 +41,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    margin: 35px 5px;
+    margin: 35px 20px;
 }
 
 .form-section label {
@@ -63,4 +63,14 @@ main {
 
 input[type="number"] {
     border: 1px solid #EFEFEF;
+}
+
+form.left-column {
+    width: 50%;
+    border-right: 2px solid #397D54;
+} 
+
+div.right-column {
+    width: 50%;
+    border-left: 2px solid #397D54;
 }
