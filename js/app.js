@@ -15,6 +15,7 @@ document.getElementById("container").onchange = function() {
     document.getElementById("totalOutput").innerHTML = "$" + billEach.toFixed(2);
 }
 
+// Below is to update the year in the footer and not for any calculations.
 var date = new Date();
 var currentYear = date.getFullYear();
 document.getElementById("year").innerHTML = currentYear;
