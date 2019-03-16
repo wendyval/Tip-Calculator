@@ -14,3 +14,7 @@ document.getElementById("container").onchange = function() {
     document.getElementById("tipOutput").innerHTML = "$" + tipEach.toFixed(2);
     document.getElementById("totalOutput").innerHTML = "$" + billEach.toFixed(2);
 }
+
+var date = new Date();
+var currentYear = date.getFullYear();
+document.getElementById("year").innerHTML = currentYear;
